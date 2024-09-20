@@ -1,0 +1,7 @@
+{
+    "foo": {
+        "bar": true,
+        "fizz": "bazz",
+        "bazz": 42.99
+    }
+}

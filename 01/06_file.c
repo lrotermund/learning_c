@@ -8,6 +8,7 @@ int main() {
     char line[1000];
     FILE *handle;
     handle = fopen("/home/lukas/repos/learning_c/01/foo.json", "r");
+    // Leads to a segfault
     // handle = fopen(path, "r");
 
     while (fgets(line, 1000, handle) != NULL) {
